@@ -1,0 +1,76 @@
+
+.tabla {
+	width: 100%;
+	font-family: Verdana 8pt;
+}
+
+.border_tabla {
+	border: 1px solid silver;
+	border-radius: 10px;
+}
+
+.sub_tabla {
+	width: 80%;
+}
+
+.col_fix {
+	width: 1%;
+}
+
+.titulo {
+	font-family: Verdana 8pt;
+	font-weight: bold;
+}
+
+.seccion {
+	/*background: yellow;*/
+	vertical-align: middle;
+	padding: 10px 0px 10px 15px;
+}
+
+.subtitulo {
+	font-family: Verdana 5pt;
+	font-style: italic;
+	color:silver;
+}
+
+.seccion td.titulo {
+	font-weight: normal;
+	text-align: left;
+}
+.seccion td.resultado {
+	font-weight: bold;
+}
+
+.result {
+	color: blue;
+}
+
+.tooltip_field_title {
+	font-weight: bold;
+}
+
+.tooltip_field_value {
+	color: blue;
+}
+
+.left {
+	text-align: left;
+}
+.right {
+	text-align: right;
+}
+.center {
+	text-align: center;
+}
+.middle {
+	vertical-align: middle;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.courier_new { font-family: 'Courier New'; }
+.red { color: red; }
+.green { color: green; }

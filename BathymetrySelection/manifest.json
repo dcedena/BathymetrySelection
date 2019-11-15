@@ -1,0 +1,24 @@
+{
+  "name": "BathymetrySelection",
+  "2D": true,
+  "3D": false,
+  "platform": "HTML",
+  "version": "1",
+  "wabVersion": "2.0.1",
+  "author": "David Cedena Loaisa",
+  "description": "Seleccionando un área, dibuja la batimetría.",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+		"inPanel":true,
+		"hasLocale": false,
+		"hasStyle":true,
+		"hasConfig":false,
+		"hasUIFile":true,
+		"hasSettingPage":false,
+		"hasSettingUIFile":false,
+		"hasSettingLocale":false,
+		"hasSettingStyle":false,
+		"IsController":false
+  }
+}

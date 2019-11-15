@@ -1,0 +1,49 @@
+<div style="width:100%; height:100%">
+    <div class='titulo'>
+        Selecciona un área:
+    </div>
+    <div class='seccion'>
+        <table class='tabla'>
+            <tr>
+                <td colspan='2' style='padding-top:10px'>
+                    <div class="center">
+                        <span id="btnSeleccionarArea"
+                              data-dojo-type="dijit/form/Button" title="Seleccionar área..."
+                              data-dojo-attach-point="btnSeleccionarArea"
+                              data-dojo-props="iconClass: 'dijitIcon dijitIconPackage'"></span>
+                        <span id="btnReset"
+                              data-dojo-type="dijit/form/Button"
+                              data-dojo-attach-point="btnReset" title="Borrar"
+                              data-dojo-props="iconClass: 'dijitEditorIcon dijitEditorIconRemoveFormat'"></span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"> <hr /></td>
+            </tr>
+            <tr>
+                <td>
+                    <span class='titulo' id='lblPuntoInicialTitle'>Punto Inicial:</span>
+                </td>
+                <td>
+                    <span class='result bold' id='lblPuntoInicialValue'></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span class='titulo' id='lblPuntoFinalTitle'>Punto Final:</span>
+                </td>
+                <td>
+                    <span class='result bold' id='lblPuntoFinalValue'></span>
+                </td>
+            </tr>
+            
+        </table>
+    </div>
+    <div class='seccion'>
+        <span class='result bold'  id='lblURL'></span>
+    </div>
+    <div class='seccion'>
+        <span class='result courier_new green' id='lblLimites'></span>
+    </div>
+</div>
